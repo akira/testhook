@@ -12,6 +12,7 @@ test
 hello
 test
 asdf
+hello
 has
 hello
 hellotest
