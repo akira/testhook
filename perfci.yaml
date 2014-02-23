@@ -2,7 +2,7 @@ expose_ports: [9080]
 endpoints:
   -
     name: home page
-    url: "http://localhost:9080"
+    url: "http://localhost:9080/"
     max_response_time: 100
   -
     name: users page
