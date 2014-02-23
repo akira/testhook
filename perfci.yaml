@@ -1,3 +1,4 @@
+expose_ports: [4567]
 endpoints:
   - 
     name: locations page
