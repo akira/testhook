@@ -1,15 +1,15 @@
-expose_ports: [4567]
+expose_ports: [9080]
 endpoints:
   - 
-    name: locations page
-    url: "http://localhost:3000/locations"
+    name: home page
+    url: "http://localhost:9080"
     max_response_time: 100
   - 
     name: users page
-    url: "http://localhost:3000/users"
+    url: "http://localhost:9080/users"
     max_response_time: 200
   - 
     name: friends page
-    url: "http://localhost:3000/friends"
+    url: "http://localhost:9080/friends"
     max_response_time: 300
 
