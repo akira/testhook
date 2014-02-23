@@ -4,7 +4,7 @@ set :bind, '0.0.0.0'
 set :port, 9080
 
 get '/' do
-  sleep(2)
+  sleep(3)
   'Hello world!'
 end
 
