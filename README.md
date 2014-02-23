@@ -5,6 +5,7 @@ testhook
 hello
 test
 a
+asdf
 test
 test
 test
