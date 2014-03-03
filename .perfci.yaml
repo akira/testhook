@@ -6,6 +6,6 @@ endpoints:
     target_response_time: 0.05
   -
     name: test
-    uri: '/test'
+    uri: '/users'
     max_response_time: 0.9
     target_response_time: 0.5
