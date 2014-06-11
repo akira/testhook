@@ -1,6 +1,13 @@
 port: 9080
 endpoints:
   -
+    name: homepage-single
+    uri: '/'
+    max_response_time: 0.09
+    target_response_time: 0.05
+    concurrency: 1
+    duration: 1
+  -
     name: homepage
     uri: '/'
     max_response_time: 0.09
