@@ -1,4 +1,4 @@
-FROM promptworks/ruby-2.0.0
+FROM ruby-2.0.0
 ADD . ~/
 WORKDIR ~/
 RUN bundle install
