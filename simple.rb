@@ -13,7 +13,7 @@ get '/locations' do
 end
 
 get '/users' do
-  sleep(2)
+  sleep(1.5)
   #sleep(rand(5))
   'Hello world!'
 end
